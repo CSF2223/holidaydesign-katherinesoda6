@@ -1,0 +1,30 @@
+/* 
+Background Color: #000000
+Primary: #3D0000
+Secondary: #950101
+Accent: #FF0000
+Text Color: #fff
+*/
+
+
+html {
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Open Sans', sans-serif, 'Playfair Display SC', serif;
+    background-color: #000;
+    display: flex;
+    margin: 15px;
+    padding: 25px;
+    border: solid;
+}
+
+header {
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    
+}
