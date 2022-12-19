@@ -1,0 +1,120 @@
+/* 
+Background Color: #000000
+Primary: #3D0000
+Secondary: #950101
+Accent: #FF0000
+Text Color: #fff
+*/
+
+
+html {
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Open Sans', sans-serif, 'Playfair Display SC', serif;
+    background-color: #000000;
+    display: flex;
+    margin: 15px;
+    padding: 25px;
+    border: solid;
+}
+
+header {
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    
+}
+
+.projectCard {
+    background-color: #000;
+    color: #3D0000;
+    margin:4rem 3rem;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    border: 1px solid #950101;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 5px #fff;
+    
+}
+
+.projectCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 3rem;
+    margin: 1rem 0;
+}
+
+.projectCard h2 {
+    margin: 0.5rem 1rem 1.5rem 1rem;
+    font-weight: 600;
+}
+
+.projectCard p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.projectIcons {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.projectIcons p {
+    margin: 0 0 1rem 0;
+    font-size: 0.8rem;
+}
+
+.fa-github {
+    font-size: 2.2rem;
+    padding: 1.5rem;
+}
+
+.fa-file {
+    font-size: 2.2rem;
+    padding: 1.5rem;
+
+}
+
+
+
+
+@media (min-width: 800px) {
+    .hero {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 90vh;
+    }
+    
+    .herotext {
+        font-size: 1rem;
+    }
+    
+    .heroName {
+        font-size: 3.5rem;
+    }
+    
+    .button {
+        font-size: 1.1rem;
+    }
+    
+    .projectGallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .projectCard {
+        max-width: 20%;
+    }
+}
+
+
+
